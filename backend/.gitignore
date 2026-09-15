@@ -1,0 +1,63 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+*.env
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Django static/media
+/staticfiles/
+/media/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration
+local_settings.py
+
+# Secrets / certificates
+*.pem
+*.key
+*.crt
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+```
